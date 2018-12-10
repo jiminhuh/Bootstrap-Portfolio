@@ -1,0 +1,98 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    background: url("assets/qbkls.png");
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-text {
+    background-color: #4aaaa5;
+    margin-bottom: 0;
+    padding: 10px 10px;
+}
+
+.navbar-light .navbar-text {
+    color: #fff;
+}
+
+
+.container-fluid {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a  {
+    color: #777;
+}
+
+
+/* Main Content */
+
+.container {
+    width: 80vw;
+    height: auto;
+    margin: 20px auto 150px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.aboutme img {
+    float: left;
+    padding-right: 20px;
+}
+
+.container h1 {
+    color: #4aaaa5;
+}
+
+/* Contact */
+
+.btn-primary {
+    background-color: #4aaaa5;
+    border: none;
+}
+
+/* Portfolio Page */
+
+.row img {
+    width: 300px;
+    height: 230px;
+}
+
+.row .col-sm p {
+    width: 300px;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    bottom: 6rem;
+}
+
+
+/* Profile Picture */
+
+.aboutme img {
+    width: 300px;
+    height: 230px;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 2.5em;
+    padding-bottom: 0.2em;
+    background-color: #777;
+    border-top: 0.7em solid #4aaaa5;
+    color: #fff;
+   
+}
