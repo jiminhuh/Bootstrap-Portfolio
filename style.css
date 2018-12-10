@@ -35,6 +35,9 @@ a  {
     color: #777;
 }
 
+a.nav-link {
+    padding: 0 30px;
+}
 
 /* Main Content */
 
@@ -53,7 +56,15 @@ a  {
 
 .container h1 {
     color: #4aaaa5;
+    padding-top: 10px;
 }
+
+ul li:first-child, li:first-child+li {
+    border-right: 1px solid #777;
+    height: 1.7rem;
+}
+
+
 
 /* Contact */
 
